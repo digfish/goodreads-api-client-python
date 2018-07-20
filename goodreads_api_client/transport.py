@@ -39,7 +39,7 @@ class Transport(object):
             Defaults to https://goodreads.com.
         """
         if base_url is None:
-            self.base_url = 'http://www.goodreads.com'
+            self.base_url = 'https://www.goodreads.com'
         else:
             self.base_url = base_url
 
